@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Linting tool for JavaScript projects.",
   "main": "lib/index.js",
+  "bin": {
+    "lintly": "./lib/index.js"
+  },
   "scripts": {
     "build": "nodely -s ./src -o ./lib",
     "test": "npm run build && ./lib/index.js src/ && flow && jest"

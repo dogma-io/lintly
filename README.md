@@ -18,4 +18,16 @@ yarn add lintly
 
 ## Usage
 
-TODO: add usage information
+> Note: In the below examples you can add multiple files/paths as separate arguments.
+
+**npm**
+
+```bash
+npm run lintly /path/to/files/to/lint
+```
+
+**yarn**
+
+```bash
+yarn run lintly /path/to/files/to/lint
+```
