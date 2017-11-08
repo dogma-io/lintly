@@ -1,0 +1,55 @@
+{
+  "name": "lintly",
+  "version": "0.0.1",
+  "description": "Linting tool for JavaScript projects.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "nodely -s ./src -o ./lib",
+    "test": "npm run build && ./lib/index.js src/ && flow && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dogma-io/lintly.git"
+  },
+  "keywords": [
+    "lint",
+    "linting",
+    "eslint",
+    "prettier",
+    "quality"
+  ],
+  "author": "Matthew Dahl <https://github.com/dogma-io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dogma-io/lintly/issues"
+  },
+  "homepage": "https://github.com/dogma-io/lintly#readme",
+  "devDependencies": {
+    "flow-bin": "0.58.0",
+    "jest-cli": "21.2.1",
+    "nodely": "0.0.6"
+  },
+  "dependencies": {
+    "babel-eslint": "8.0.2",
+    "eslint": "4.10.0",
+    "eslint-config-standard": "10.2.1",
+    "eslint-plugin-flowtype": "2.39.1",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-node": "5.2.1",
+    "eslint-plugin-prettier": "2.3.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-standard": "3.0.1",
+    "prettier": "1.8.1"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageReporters": [
+      "json-summary",
+      "lcov"
+    ],
+    "testRegex": "/__tests__/.*-test\\.js$"
+  }
+}
