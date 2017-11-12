@@ -3,7 +3,9 @@ const ERROR = 'error'
 module.exports = {
   extends: 'standard',
   globals: {
+    afterAll: false,
     afterEach: false,
+    beforeAll: false,
     beforeEach: false,
     describe: false,
     expect: false,
