@@ -1,3 +1,7 @@
+## 0.0.6
+
+*   Added npm badge to [README.md](RADME.md).
+
 ## 0.0.5
 
 *   Added [LICENSE.md](LICENSE.md).

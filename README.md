@@ -1,4 +1,4 @@
-# lintly
+# lintly [![NPM][npm-img]][npm-url]
 
 Linting tool for JavaScript projects.
 
@@ -31,3 +31,6 @@ npm run lintly /path/to/files/to/lint
 ```bash
 yarn run lintly /path/to/files/to/lint
 ```
+
+[npm-img]: https://img.shields.io/npm/v/lintly.svg "NPM Version"
+[npm-url]: https://www.npmjs.com/package/lintly

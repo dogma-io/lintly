@@ -1,6 +1,6 @@
 {
   "name": "lintly",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Linting tool for JavaScript projects.",
   "main": "lib/index.js",
   "bin": {
@@ -31,7 +31,7 @@
   "devDependencies": {
     "flow-bin": "0.59.0",
     "jest-cli": "21.2.1",
-    "nodely": "0.0.11"
+    "nodely": "0.0.12"
   },
   "dependencies": {
     "babel-eslint": "8.0.2",
