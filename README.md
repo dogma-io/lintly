@@ -1,4 +1,4 @@
-# lintly [![NPM][npm-img]][npm-url]
+# lintly [![NPM][npm-img]][npm-url] [![Coverage][cov-img]][cov-url]
 
 Linting tool for JavaScript projects.
 
@@ -31,6 +31,9 @@ npm run lintly /path/to/files/to/lint
 ```bash
 yarn run lintly /path/to/files/to/lint
 ```
+
+[cov-img]: https://img.shields.io/codecov/c/github/dogma-io/lintly.svg "Code Coverage"
+[cov-url]: https://codecov.io/gh/dogma-io/lintly
 
 [npm-img]: https://img.shields.io/npm/v/lintly.svg "NPM Version"
 [npm-url]: https://www.npmjs.com/package/lintly

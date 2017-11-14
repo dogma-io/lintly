@@ -1,6 +1,6 @@
 {
   "name": "lintly",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Linting tool for JavaScript projects.",
   "main": "lib/index.js",
   "bin": {
@@ -16,9 +16,13 @@
     "url": "git+ssh://git@github.com/dogma-io/lintly.git"
   },
   "keywords": [
-    "lint",
-    "linting",
+    "code",
     "eslint",
+    "javascript",
+    "js",
+    "lint",
+    "linter",
+    "linting",
     "prettier",
     "quality"
   ],
@@ -31,7 +35,7 @@
   "devDependencies": {
     "flow-bin": "0.59.0",
     "jest-cli": "21.2.1",
-    "nodely": "0.0.12"
+    "nodely": "0.0.14"
   },
   "dependencies": {
     "babel-eslint": "8.0.2",

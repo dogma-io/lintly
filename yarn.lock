@@ -2506,9 +2506,9 @@ node-watch@0.5.5:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/node-watch/-/node-watch-0.5.5.tgz#34865ba8bc6861ab086acdcc3403e40ed55c3274"
 
-nodely@0.0.12:
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/nodely/-/nodely-0.0.12.tgz#0f4afc9c9fa82fcf3ae352229a29d26b2271aa17"
+nodely@0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/nodely/-/nodely-0.0.14.tgz#7af867be1395d5424bc9a522e760f62a16c98b08"
   dependencies:
     babel-core "6.26.0"
     babel-preset-env "1.6.1"
