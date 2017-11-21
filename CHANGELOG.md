@@ -1,3 +1,7 @@
+## 0.0.8
+
+*   Flow typed entire codebase.
+
 ## 0.0.7
 
 *   Added coverage badge to [README.md](README.md).

@@ -1,15 +1,19 @@
 #! /usr/bin/env node
 
+/**
+ * @flow
+ */
+
 import {CLIEngine} from 'eslint'
 import chalk from 'chalk'
 import path from 'path'
 
 /**
  * Get human friendly label for severity
- * @param {Number} severity - sevrity
- * @returns {String} sevrity label
+ * @param severity - sevrity
+ * @returns sevrity label
  */
-function getSeverityLabel(severity) {
+function getSeverityLabel(severity: number): string {
   switch (severity) {
     case 1:
       return 'warning'
@@ -24,9 +28,9 @@ function getSeverityLabel(severity) {
 
 /**
  * Print path to file as part of linting results
- * @param {String} filePath - path to file
+ * @param filePath - path to file
  */
-function printFilePath(filePath) {
+function printFilePath(filePath: string): void {
   const relativeFilePath = filePath
     .replace(process.cwd(), '')
     .replace(/^\//, '')
@@ -37,13 +41,19 @@ function printFilePath(filePath) {
 
 /**
  * Print path to file as part of linting results
- * @param {Number} line - line in which linting issue occurs
- * @param {Number} column - column in which linting issue occurs
- * @param {String} severity - severity of linting issue ("error" or "warning")
- * @param {String} message - linting message
- * @param {String} rule - linting rule
+ * @param line - line in which linting issue occurs
+ * @param column - column in which linting issue occurs
+ * @param severity - severity of linting issue ("error" or "warning")
+ * @param message - linting message
+ * @param rule - linting rule
  */
-function printLintItem(line, column, severity, message, rule) {
+function printLintItem(
+  line: number,
+  column: number,
+  severity: string,
+  message: string,
+  rule: string,
+): void {
   const position = chalk.dim(`${line}:${column}`)
   const severityColor = severity === 'error' ? 'red' : 'yellow'
 
@@ -55,11 +65,15 @@ function printLintItem(line, column, severity, message, rule) {
 
 /**
  * Print summary of linting results for a particular linter/file type
- * @param {String} label - label for summary (language being linted)
- * @param {Number} errors - error count
- * @param {Number} warnings - warning count
+ * @param label - label for summary (language being linted)
+ * @param errors - error count
+ * @param warnings - warning count
  */
-function printLintSummary(label, errors, warnings) {
+function printLintSummary(
+  label: string,
+  errors: number,
+  warnings: number,
+): void {
   const color =
     errors === 0 ? (warnings === 0 ? 'bgGreen' : 'bgYellow') : 'bgRed'
 

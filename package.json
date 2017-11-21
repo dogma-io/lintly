@@ -1,14 +1,19 @@
 {
   "name": "lintly",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Linting tool for JavaScript projects.",
   "main": "lib/index.js",
   "bin": {
     "lintly": "./lib/index.js"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "build": "nodely -s ./src -o ./lib",
+    "build": "rm -rf ./lib/*.flow && nodely -s ./src -o ./lib && npm run gen-types",
+    "gen-types": "flow gen-flow-files src --out-dir lib",
+    "postpublish": "codecov",
+    "prepublishOnly": "npm run build",
     "test": "npm run build && ./lib/index.js src/ && flow && jest"
   },
   "repository": {
@@ -33,9 +38,10 @@
   },
   "homepage": "https://github.com/dogma-io/lintly#readme",
   "devDependencies": {
+    "codecov": "3.0.0",
     "flow-bin": "0.59.0",
     "jest-cli": "21.2.1",
-    "nodely": "0.0.14"
+    "nodely": "0.0.20"
   },
   "dependencies": {
     "babel-eslint": "8.0.2",
@@ -58,6 +64,14 @@
       "json-summary",
       "lcov"
     ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    },
     "testRegex": "/__tests__/.*-test\\.js$"
   }
 }
