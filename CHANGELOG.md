@@ -1,3 +1,7 @@
+## 0.0.11
+
+*   Add missing plugin [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react).
+
 ## 0.0.10
 
 *   Fix error in JS to actually build last change.

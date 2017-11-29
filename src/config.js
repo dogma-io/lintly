@@ -24,7 +24,7 @@ module.exports = {
     },
   ],
   parser: 'babel-eslint',
-  plugins: ['flowtype', 'prettier'],
+  plugins: ['flowtype', 'prettier', 'react'],
   rules: {
     'comma-dangle': [ERROR, 'always-multiline'],
 
