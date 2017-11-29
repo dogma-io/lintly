@@ -1,3 +1,7 @@
+## 0.0.9
+
+*   Don't mark imported React components as unused variables when they are consumed in JSX.
+
 ## 0.0.8
 
 *   Flow typed entire codebase.

@@ -44,6 +44,10 @@ module.exports = {
         trailingComma: 'all',
       },
     ],
+
+    // Make sure imported components aren't marked as unsed variables when they
+    // are used in JSX.
+    'react/jsx-uses-vars' [ERROR],
   },
   settings: {
     flowtype: {
