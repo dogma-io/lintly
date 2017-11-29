@@ -1,3 +1,7 @@
+## 0.0.10
+
+*   Fix error in JS to actually build last change.
+
 ## 0.0.9
 
 *   Don't mark imported React components as unused variables when they are consumed in JSX.
