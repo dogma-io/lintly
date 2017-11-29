@@ -45,6 +45,10 @@ module.exports = {
       },
     ],
 
+    // Make sure imported React isn't marked as unused variable when there is
+    // JSX present.
+    'react/jsx-uses-react': [ERROR],
+
     // Make sure imported components aren't marked as unsed variables when they
     // are used in JSX.
     'react/jsx-uses-vars': [ERROR],

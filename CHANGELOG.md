@@ -1,3 +1,7 @@
+## 0.0.12
+
+*   Don't mark imported React as unused when JSX is present.
+
 ## 0.0.11
 
 *   Add missing plugin [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react).
