@@ -18,8 +18,12 @@ module.exports = {
       excludedFiles: ['**/__mocks__/**/*.js', '**/__tests__/**/*.js'],
       files: ['**/*.js'],
       rules: {
+        'flowtype/define-flow-type': [ERROR],
         'flowtype/no-weak-types': [ERROR],
         'flowtype/require-parameter-type': [ERROR],
+        'flowtype/require-return-type': [ERROR],
+        'flowtype/sort-keys': [ERROR],
+        'flowtype/use-flow-type': [ERROR],
       },
     },
   ],

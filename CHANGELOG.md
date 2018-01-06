@@ -1,3 +1,14 @@
+## 0.0.13
+
+*   Enabled following rules:
+
+    *   `flowtype/define-flow-type`
+    *   `flowtype/require-return-type`
+    *   `flowtype/sort-keys`
+    *   `flowtype/use-flow-type`
+
+*   Upgraded dependencies to latest versions.
+
 ## 0.0.12
 
 *   Don't mark imported React as unused when JSX is present.
