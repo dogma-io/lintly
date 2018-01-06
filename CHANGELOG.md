@@ -1,3 +1,7 @@
+## 0.0.16
+
+*   Support ESLint config file defined in consumer project (directory in which script is called).
+
 ## 0.0.15
 
 *   Updated eslint-config-lintly to latest version.

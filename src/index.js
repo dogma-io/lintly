@@ -6,6 +6,7 @@
 
 import {CLIEngine} from 'eslint'
 import chalk from 'chalk'
+import {readdirSync} from 'fs'
 import path from 'path'
 
 /**
@@ -90,8 +91,14 @@ function printLintSummary(
   console.log(`${boldColoredText}\n`)
 }
 
+const CWD = process.cwd()
+const CWD_FILES = readdirSync(CWD)
+const CONFIG_FILE = CWD_FILES.find(fileName =>
+  /^\.eslintrc(\.[a-zA-Z]+)?$/.test(fileName),
+)
+
 const cli = new CLIEngine({
-  configFile: path.join(__dirname, 'config.js'),
+  configFile: CONFIG_FILE || path.join(__dirname, 'config.js'),
 })
 
 const files = process.argv.slice(2)

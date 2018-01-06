@@ -1,6 +1,6 @@
 {
   "name": "lintly",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Linting tool for JavaScript projects.",
   "main": "lib/index.js",
   "bin": {
