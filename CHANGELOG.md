@@ -1,6 +1,10 @@
+## 0.0.15
+
+*   Updated eslint-config-lintly to latest version.
+
 ## 0.0.14
 
-*  * Moved ESLint configuration to [eslint-config-lintly](https://github.com/dogma-io/eslint-config-lintly).
+*   Moved ESLint configuration to [eslint-config-lintly](https://github.com/dogma-io/eslint-config-lintly).
 
 ## 0.0.13
 
