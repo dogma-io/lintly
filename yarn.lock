@@ -1273,6 +1273,21 @@ escodegen@^1.9.0:
   optionalDependencies:
     source-map "~0.5.6"
 
+eslint-config-lintly@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-lintly/-/eslint-config-lintly-0.0.1.tgz#8167a366b7ed9466c761b02c8ae16628d4e36ee4"
+  dependencies:
+    babel-eslint "8.1.2"
+    eslint-config-standard "11.0.0-beta.0"
+    eslint-plugin-flowtype "2.41.0"
+    eslint-plugin-import "2.8.0"
+    eslint-plugin-node "5.2.1"
+    eslint-plugin-prettier "2.4.0"
+    eslint-plugin-promise "3.6.0"
+    eslint-plugin-react "7.5.1"
+    eslint-plugin-standard "3.0.1"
+    prettier "1.9.2"
+
 eslint-config-standard@11.0.0-beta.0:
   version "11.0.0-beta.0"
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-11.0.0-beta.0.tgz#f8afe69803d95c685a4b8392b8793188eb03cbb3"
@@ -1590,10 +1605,6 @@ flat-cache@^1.2.1:
     del "^2.0.2"
     graceful-fs "^4.1.2"
     write "^0.2.1"
-
-flow-bin@0.59.0:
-  version "0.59.0"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.59.0.tgz#8c151ee7f09f1deed9bf0b9d1f2e8ab9d470f1bb"
 
 flow-bin@0.62.0:
   version "0.62.0"
@@ -2711,14 +2722,14 @@ node-watch@0.5.5:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/node-watch/-/node-watch-0.5.5.tgz#34865ba8bc6861ab086acdcc3403e40ed55c3274"
 
-nodely@0.0.20:
-  version "0.0.20"
-  resolved "https://registry.yarnpkg.com/nodely/-/nodely-0.0.20.tgz#d0faa20b9ca020dc873bb711443c745b99f2959e"
+nodely@0.0.21:
+  version "0.0.21"
+  resolved "https://registry.yarnpkg.com/nodely/-/nodely-0.0.21.tgz#5d9755b8825369e7b3dc034b55bc466ef6919983"
   dependencies:
     babel-core "6.26.0"
     babel-preset-env "1.6.1"
     babel-preset-react "6.24.1"
-    flow-bin "0.59.0"
+    flow-bin "0.62.0"
     glob "7.1.2"
     mkdirp "0.5.1"
     node-watch "0.5.5"

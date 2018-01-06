@@ -1,3 +1,7 @@
+## 0.0.14
+
+*  * Moved ESLint configuration to [eslint-config-lintly](https://github.com/dogma-io/eslint-config-lintly).
+
 ## 0.0.13
 
 *   Enabled following rules:
