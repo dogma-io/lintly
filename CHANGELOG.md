@@ -1,3 +1,7 @@
+## 0.0.17
+
+*   Upgrade to latest nodely which uses Babel 7 beta.
+
 ## 0.0.16
 
 *   Support ESLint config file defined in consumer project (directory in which script is called).
