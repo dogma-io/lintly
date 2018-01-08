@@ -1,3 +1,7 @@
+## 0.0.18
+
+*   Upgraded to latest version of eslint-config-lintly.
+
 ## 0.0.17
 
 *   Upgrade to latest nodely which uses Babel 7 beta.
