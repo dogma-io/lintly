@@ -1,3 +1,7 @@
+## 0.0.20
+
+*   Upgrade dependencies to latest versions.
+
 ## 0.0.19
 
 *   Upgrade dependencies to latest versions.
