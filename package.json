@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "eslint": "4.17.0",
-    "eslint-config-lintly": "0.0.5"
+    "eslint-config-lintly": "0.0.6"
   },
   "jest": {
     "collectCoverage": true,
