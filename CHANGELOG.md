@@ -1,3 +1,7 @@
+## 0.0.21
+
+*   Upgrade `eslint-config-lintly` to latest version with stricter rules.
+
 ## 0.0.20
 
 *   Upgrade dependencies to latest versions.
