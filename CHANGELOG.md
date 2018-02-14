@@ -1,3 +1,7 @@
+## 0.0.23
+
+*   Upgrade `eslint-config-lintly` to latest version.
+
 ## 0.0.22
 
 *   Upgrade `eslint-config-lintly` to latest version.

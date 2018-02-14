@@ -1,6 +1,6 @@
 {
   "name": "lintly",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "Linting tool for JavaScript projects.",
   "main": "lib/index.js",
   "bin": {
@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "eslint": "4.17.0",
-    "eslint-config-lintly": "0.0.7"
+    "eslint-config-lintly": "0.0.8"
   },
   "jest": {
     "collectCoverage": true,
