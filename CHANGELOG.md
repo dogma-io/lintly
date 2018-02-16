@@ -1,3 +1,7 @@
+## 0.0.24
+
+*   Upgrade `eslint-config-lintly` to latest version for React accessibility rules.
+
 ## 0.0.23
 
 *   Upgrade `eslint-config-lintly` to latest version.
