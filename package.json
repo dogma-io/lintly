@@ -1,6 +1,6 @@
 {
   "name": "lintly",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "description": "Linting tool for JavaScript projects.",
   "main": "lib/index.js",
   "bin": {
@@ -39,14 +39,14 @@
   "homepage": "https://github.com/dogma-io/lintly#readme",
   "devDependencies": {
     "babel-core": "^7.0.0-0",
-    "babel-jest": "22.2.2",
+    "babel-jest": "22.4.1",
     "codecov": "3.0.0",
-    "jest-cli": "22.3.0",
-    "nodely": "0.0.28"
+    "jest-cli": "22.4.2",
+    "nodely": "0.0.29"
   },
   "dependencies": {
-    "eslint": "4.17.0",
-    "eslint-config-lintly": "0.0.9"
+    "eslint": "4.18.1",
+    "eslint-config-lintly": "0.0.10"
   },
   "jest": {
     "collectCoverage": true,
