@@ -2,6 +2,13 @@
 
 Linting tool for JavaScript projects.
 
+## Table of Contents
+
+*   [Installation](#installation)
+*   [Documentation](#documentation)
+*   [Contributing](#contributing)
+*   [License](#license)
+
 ## Installation
 
 **npm**
@@ -16,7 +23,7 @@ npm install lintly
 yarn add lintly
 ```
 
-## Usage
+## Documentation
 
 > Note: In the below examples you can add multiple files/paths as separate arguments.
 
@@ -31,6 +38,14 @@ npm run lintly /path/to/files/to/lint
 ```bash
 yarn run lintly /path/to/files/to/lint
 ```
+
+## Contributing
+
+Please see the [contributing guide](CONTRIBUTING.md).
+
+## License
+
+[MIT](LICENSE.md)
 
 [cov-img]: https://img.shields.io/codecov/c/github/dogma-io/lintly.svg "Code Coverage"
 [cov-url]: https://codecov.io/gh/dogma-io/lintly
