@@ -39,14 +39,14 @@
   "homepage": "https://github.com/dogma-io/lintly#readme",
   "devDependencies": {
     "babel-core": "^7.0.0-0",
-    "babel-jest": "22.4.1",
+    "babel-jest": "23.0.0-alpha.0",
     "codecov": "3.0.0",
-    "jest-cli": "22.4.2",
-    "nodely": "0.0.29"
+    "jest-cli": "23.0.0-alpha.0",
+    "nodely": "0.1.0"
   },
   "dependencies": {
-    "eslint": "4.18.1",
-    "eslint-config-lintly": "0.0.10"
+    "eslint": "4.19.0",
+    "eslint-config-lintly": "0.1.0"
   },
   "jest": {
     "collectCoverage": true,
