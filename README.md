@@ -6,6 +6,7 @@ Linting tool for JavaScript projects.
 
 *   [Installation](#installation)
 *   [Documentation](#documentation)
+*   [Code of Conduct](#code-of-conduct)
 *   [Contributing](#contributing)
 *   [License](#license)
 
@@ -38,6 +39,10 @@ npm run lintly /path/to/files/to/lint
 ```bash
 yarn run lintly /path/to/files/to/lint
 ```
+
+## Code of Conduct
+
+Please see the [code of conduct](CODE_OF_CONDUCT.md).
 
 ## Contributing
 
