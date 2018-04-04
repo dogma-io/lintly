@@ -1,3 +1,8 @@
+# 0.1.1 (2018-04-04)
+
+*   Added `engines` to `package.json` to set minimum Node version to 6.
+*   Upgraded dependencies to latest versions.
+
 # 0.1.0 (2018-03-20)
 
 *   Update dependencies to latest versions.
