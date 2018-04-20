@@ -42,11 +42,11 @@
     "babel-jest": "22.4.3",
     "codecov": "3.0.0",
     "jest": "22.4.3",
-    "nodely": "0.1.2"
+    "nodely": "0.1.3"
   },
   "dependencies": {
     "eslint": "4.19.1",
-    "eslint-config-lintly": "0.1.1"
+    "eslint-config-lintly": "0.1.2"
   },
   "engines": {
     "node": ">= 6"
@@ -64,8 +64,8 @@
       "global": {
         "branches": 0,
         "functions": 0,
-        "lines": 5.26,
-        "statements": 4.35
+        "lines": 4.76,
+        "statements": 4
       }
     },
     "testRegex": "/__tests__/.*-test\\.js$"
