@@ -56,10 +56,14 @@ function printLintItem(
   rule: string,
 ): void {
   const position = chalk.dim(`${line}:${column}`)
-  const severityColor = severity === 'error' ? 'red' : 'yellow'
 
   rule = chalk.dim(rule)
-  severity = chalk[severityColor](severity)
+
+  if (severity === 'error') {
+    severity = chalk.red(severity)
+  } else {
+    severity = chalk.yellow(severity)
+  }
 
   console.log(`  ${position}  ${severity}  ${message}  ${rule}`)
 }
@@ -75,15 +79,16 @@ function printLintSummary(
   errors: number,
   warnings: number,
 ): void {
-  const color =
-    errors === 0 ? (warnings === 0 ? 'bgGreen' : 'bgYellow') : 'bgRed'
+  const text = ` ${label}: ${errors} errors, ${warnings} warnings `
 
-  let coloredText = chalk[color](
-    ` ${label}: ${errors} errors, ${warnings} warnings `,
-  )
+  let coloredText
 
-  if (color === 'bgRed') {
-    coloredText = chalk.white(coloredText)
+  if (errors) {
+    coloredText = chalk.white(chalk.bgRed(text))
+  } else if (warnings) {
+    coloredText = chalk.bgYellow(text)
+  } else {
+    coloredText = chalk.bgGreen(text)
   }
 
   const boldColoredText = chalk.bold(coloredText)
