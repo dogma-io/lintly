@@ -1,3 +1,8 @@
+# 0.1.3 (2018-04-30)
+
+*   Upgrade dependencies to latest versions.
+
+
 # 0.1.2 (2018-04-20)
 
 *   Upgrade `eslint-config-lintly` to latest version.
