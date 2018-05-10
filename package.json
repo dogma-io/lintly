@@ -40,9 +40,9 @@
   "devDependencies": {
     "babel-core": "^7.0.0-0",
     "babel-jest": "22.4.3",
-    "codecov": "3.0.1",
+    "codecov": "3.0.2",
     "jest": "22.4.3",
-    "nodely": "0.1.4"
+    "nodely": "0.1.5"
   },
   "dependencies": {
     "eslint": "4.19.1",
