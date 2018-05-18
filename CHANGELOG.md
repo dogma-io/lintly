@@ -1,3 +1,7 @@
+# 0.1.4 (2018-05-18)
+
+*   Upgrade dependencies to latest versions.
+
 # 0.1.3 (2018-04-30)
 
 *   Upgrade dependencies to latest versions.
