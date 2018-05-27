@@ -1,3 +1,8 @@
+# 0.2.0 (2018-05-27)
+
+*   Output more Flow types to `lib`.
+*   Upgrade dependencies to latest versions.
+
 # 0.1.4 (2018-05-18)
 
 *   Upgrade dependencies to latest versions.
