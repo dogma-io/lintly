@@ -1,3 +1,7 @@
+# 0.2.1 (2018-06-05)
+
+*   Make sure build is ES5.
+
 # 0.2.0 (2018-05-27)
 
 *   Output more Flow types to `lib`.
