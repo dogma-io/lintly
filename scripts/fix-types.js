@@ -20,6 +20,7 @@ const FIXED_CONTENTS = [
   'flowtype/sort-keys',
   'flowtype/use-flow-type',
   'import/first',
+  'object-curly-spacing',
   'prettier/prettier',
   'react/jsx-uses-react',
   'react/jsx-uses-vars',
